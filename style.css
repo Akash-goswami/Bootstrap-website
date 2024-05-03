@@ -1,0 +1,44 @@
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+.img-flu{
+    width: 100%;
+}
+.font-color{
+    color: #9093A6;
+}
+.hading-color{
+    color: #3F4255;
+    font-size: 58px;
+}
+.bg-fluid{
+    background-color: #F2F4FA;
+}
+.spc-img img{
+    width: 150px;
+    height: 150px;
+    /* margin-right: 3px; */
+}
+.footer-color{
+    color: #D4D7E5;
+}
+.footor-color{
+    background-color: 
+    #3F4255;
+}
+.pos-hide{
+    left:-100%;
+    width: 300px;
+    height: 100vh;
+    transition: 1s;
+    z-index: 999;
+
+}
+.pos-show{
+    left: 0px;
+}
